@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 
@@ -8,8 +7,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <h1>Naveen Kumar</h1>
-          <h1>Naveen Kumar</h1>
         </Routes>
       </BrowserRouter>
     </div>
